@@ -1,0 +1,130 @@
+.home {
+ 
+    background: linear-gradient(170deg, hsl(0, 0%, 22%)0%,hsl(0, 0%, 6%)30%);
+
+    padding-bottom: 0;
+}
+.scroll-header {
+    background-color: $body-color;
+    box-shadow: 0 1px 4px hsla(228, 4%, 15%, 0.1) ;
+
+    .nav__logo {
+        color: $first-color;
+    }
+}
+.home__container {
+    padding-top: 4rem;
+    row-gap: 3.5rem;
+}
+
+.home__title,
+.home__value-number {
+    color: #fff;
+}
+
+.home__title {
+    font-size: $biggest-font-size;
+    line-height: 120%;
+
+    margin-bottom: 1.25rem;
+}
+
+.home__description {
+    color: $text-color-light;
+    margin-bottom: 2rem;
+}
+
+.home__search {
+    position: relative;
+    background-color: $body-color;
+    padding: .35rem .35rem .35rem .75rem;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: .75rem;
+    -webkit-border-radius: .75rem;
+    -moz-border-radius: .75rem;
+    -ms-border-radius: .75rem;
+    -o-border-radius: .75rem;
+
+    border: 3px solid $text-color-light;
+    margin-bottom: 2rem;
+
+    // i {
+    //     font-size: 1.25rem;
+    // }
+    img {
+        width: 20px;
+    }
+}
+
+.home__search-input {
+   width: 90%;
+   background-color: $body-color;
+   color: $text-color;
+
+   margin: 0 .5rem;
+
+   &::placeholder {
+    color: $text-color-light
+   }
+}
+
+.home__value {
+    display: flex;
+    column-gap: 2.5rem;
+}
+
+.home__value-number {
+    font-size: $font-size-h1;
+    font-weight: $font-weight2;
+
+    span {
+        color: $second-color;
+    }
+}
+
+.home__value-description {
+    display: flex;
+    color: $text-color-light;
+    font-size: $small-font-size;
+}
+
+.home__images {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 0;
+}
+
+.home__orb {
+    width: 265px;
+    height: 294px;
+    background: linear-gradient(180deg, hsl(0, 0%, 16%)93%, hsl(0, 0%, 67%)100%);
+    border-radius: 135px 135px 0 0;
+    -webkit-border-radius: 135px 135px 0 0;
+    -moz-border-radius: 135px 135px 0 0;
+    -ms-border-radius: 135px 135px 0 0;
+    -o-border-radius: 135px 135px 0 0;
+}
+
+.home__img {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    border-radius:  125px 125px 12px 12px;
+    -webkit-border-radius:  125px 125px 12px 12px;
+    -moz-border-radius:  125px 125px 12px 12px;
+    -ms-border-radius:  125px 125px 12px 12px;
+    -o-border-radius:  125px 125px 12px 12px;
+
+    display: inline-flex;
+    align-items: flex-end;
+    bottom: -1.5rem;
+
+    box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
+}
